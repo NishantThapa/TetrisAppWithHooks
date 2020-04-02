@@ -11,7 +11,6 @@ export const StyledNext = styled.div`
     margin: 20px 0 20px 0;
     border: 2px solid #333;
     width: 50%;
-    /*height: 100%;*/
     padding: 5px;
     max-width: 25vw;
     background: #111;

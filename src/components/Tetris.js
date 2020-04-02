@@ -140,12 +140,15 @@ const Tetris = () => {
                 {gameOver ? (
                     <Display gameOver ={gameOver} text="Game Over" />
                 ) : (
-                <div>
-                    <Next next={next} />
-                    <Display text={`Score: ${score}`} />
-                    <Display text={`Rows: ${rows}`} />
-                    <Display text={`Level: ${level}`} />
-                </div>
+                            <div>
+                                <Next next={next} />
+                                <div className="buttons">
+                                    <Display text={`Score: ${score}`} />
+                                    <Display text={`Rows: ${rows}`} />
+                                    <Display text={`Level: ${level}`} />
+                                </div>
+
+                            </div>
                 )}
                 <StartButton callback={startGame} text={startText} />
                 <PauseButton callback={pauseGame} text={pauseText} />

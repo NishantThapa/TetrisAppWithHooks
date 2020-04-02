@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { respondTo } from './respondTo';
 export const StyledStartButton = styled.button`
     box-sizing: border-box;
     margin: 0 0 20px 0;
@@ -14,5 +14,10 @@ export const StyledStartButton = styled.button`
     font-size: 1rem;
     outline: none;
     cursor: pointer;
-
+    ${respondTo.xs`
+        width: 70%;
+    `}
+     ${respondTo.sm`
+        width: 100%;
+    `}
 `
