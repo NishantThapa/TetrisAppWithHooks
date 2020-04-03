@@ -5,7 +5,7 @@ export const StyledDisplay = styled.div`
     display: flex;
     align-items: center;
     margin: 20px 0 20px 0;
-    padding: 20px;
+    padding: 8px;
     border: 4px solid #333;
     min-height: 30px;
     width: 100%;
@@ -16,7 +16,12 @@ export const StyledDisplay = styled.div`
     font-size: 1rem;
     justify-content: center;
     ${respondTo.xs`
+        width: 60%;
+        font-size: 0.8rem;
+    `}
+    ${respondTo.xl`
         width: 70%;
+        font-size: 1rem;
     `}
      ${respondTo.sm`
         width: 100%;

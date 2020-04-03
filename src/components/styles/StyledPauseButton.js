@@ -3,7 +3,7 @@ import { respondTo } from './respondTo';
 export const StyledPauseButton = styled.button`
     box-sizing: border-box;
     margin: 0 0 20px 0;
-    padding: 20px;
+    padding: 8px;
     min-height: 30px;
     width: 100%;
     border-radius: 20px;
@@ -15,7 +15,12 @@ export const StyledPauseButton = styled.button`
     outline: none;
     cursor: pointer;
     ${respondTo.xs`
+        width: 60%;
+        font-size: 0.8rem;
+    `}
+    ${respondTo.xl`
         width: 70%;
+        font-size: 1rem;
     `}
      ${respondTo.sm`
         width: 100%;

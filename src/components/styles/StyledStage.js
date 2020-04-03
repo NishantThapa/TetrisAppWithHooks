@@ -13,11 +13,21 @@ export const StyledStage = styled.div`
     margin: 20px 0px 0px 0px;
     max-width: 25vw;
     background: #4e4c4c;
+
     ${respondTo.xs`
+        grid-template-rows: repeat( 20,calc(62vw / 12) );
+        max-width: 52vw;
+    `}
+   
+    ${respondTo.xl`
         grid-template-rows: repeat( 20, calc(48vw / 12) );
         max-width: 45vw;
     `}
      ${respondTo.sm`
+        grid-template-rows: repeat( 20, calc(35vw / 12) );
+        max-width: 45vw;
+    `}
+     ${respondTo.sl`
         grid-template-rows: repeat(
         ${props => props.height},
         calc(25vw / ${props => props.width})
