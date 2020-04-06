@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACI,QACJ,CAEA,WACI,iBAAoB,CACpB,oEACJ","file":"main.2f3f2698.chunk.css","sourcesContent":["body {\n    margin: 0;\n}\n\n@font-face {\n    font-family: 'Pixel';\n    src: url(\"https://fonts.googleapis.com/css?family=Roboto&display=swap\") ;\n}\n\n"]}
