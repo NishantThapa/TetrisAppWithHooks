@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledTetrisWrapper = styled.div`
+export const StyledTetrisWrapper = styled.div `
     width: 100vw;
     height: 100vh;
     background: #bba050;
@@ -9,7 +9,7 @@ export const StyledTetrisWrapper = styled.div`
 `
 
 
-export const StyledTetris = styled.div`
+export const StyledTetris = styled.div `
     display: flex;
     align-items: flex-start;
     margin: 50px auto;

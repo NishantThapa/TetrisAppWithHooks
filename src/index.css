@@ -4,6 +4,16 @@ body {
 
 @font-face {
     font-family: 'Pixel';
-    src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap") ;
+    src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 }
 
+
+/* quick fix for arrow btns */
+
+.arrowBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
